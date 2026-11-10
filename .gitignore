@@ -1,0 +1,43 @@
+# Raw and preprocessed EEG recordings; no participant data in this repository.
+data/
+*.npz
+*.set
+*.edf
+*.bdf
+*.fif
+*.mat
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# Models, locally generated training outputs, and experimental artifacts
+outputs/
+runs/
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+
+# Credentials and private environments
+.env
+.env.*
+!.env.example
+*.key
+*token*
+
+# Python / editor
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/

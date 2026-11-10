@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eeg-golf-performance-classification"
+version = "0.1.0"
+description = "Refactored research scripts for EEG binary classification with a 1D ResNet"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scikit-learn>=1.4,<2", "torch>=2.2,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

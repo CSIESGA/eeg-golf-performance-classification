@@ -1,0 +1,11 @@
+{
+  "seed": 42,
+  "use_car": false,
+  "epochs": 20,
+  "batch_size": 16,
+  "lr": 0.00001,
+  "base_channels": 32,
+  "kernel_size": 7,
+  "num_workers": 0,
+  "device": "auto"
+}
